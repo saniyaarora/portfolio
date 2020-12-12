@@ -1,0 +1,297 @@
+    /* Color Palette
+#1C1A1A (Light Black) 
+#BF1363 (Magenta) 
+#CDD6D0 (Light Blue) 
+#D6CBC1 (Light Beige) 
+#D6A99A (Dark Beige)
+*/
+    /* Global Styles*/
+    
+    body {
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    h2,
+    h3 {
+        text-align: center;
+        color: #d6a99a;
+        font-weight: bold;
+    }
+    
+    h4 {
+        text-align: center;
+        color: black;
+        font-weight: bolder;
+    }
+    
+    p {
+        padding: 20px;
+    }
+    /* Navigation Bar*/
+    
+    .topnav {
+        background-color: #ffffff;
+        overflow: hidden;
+    }
+    
+    .topnav a {
+        float: left;
+        color: #D6A99A;
+        text-align: center;
+        padding: 12px 14px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #dddddd;
+        color: black;
+    }
+    
+    .topnav a.active {
+        background-color: #bf1363;
+        color: white;
+    }
+    /*Header and Hero Pages*/
+    
+    .tiger {
+        position: absolute;
+        width: 1200px;
+        height: 272px;
+        left: 100px;
+        top: 180px;
+    }
+    
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 66px;
+        color: #FFFFFF;
+    }
+    
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    /* INTRODUCTION*/
+    
+    h4 {
+        text-align: center;
+        font-weight: bold;
+        text-emphasis-color: black;
+    }
+    /* TITLE SUBHEADER*/
+    
+    .centeredblack {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 66px;
+        color: black;
+    }
+    /* RESEARCH */
+    
+    .survey {
+        position: absolute;
+        width: 779px;
+        height: 314px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        right: 250px;
+    }
+    
+    .addcolor {
+        position: absolute;
+        width: 441px;
+        height: 619px;
+        left: 660px;
+        top: 1300px;
+    }
+    
+    .alignLeft {
+        position: absolute;
+        width: 544px;
+        height: 615px;
+        left: 52px;
+        top: 1300px;
+    }
+    /* TITLE SUBHEADER*/
+    /* STEP 2: DEFINE (USER JOURNEY) */
+    
+    .userjourneyesi {
+        position: absolute;
+        width: 999px;
+        height: 590px;
+        left: 130px;
+        top: 1850px;
+    }
+    /* STEP 2: DEFINE (COMPETITIVE ANALYSIS) */
+    
+    .analysis {
+        position: absolute;
+        width: 1350px;
+        height: 640px;
+        top: 2500px;
+    }
+    /* STEP 3: IDEATE*/
+    
+    .esi1 {
+        position: absolute;
+        width: 576px;
+        height: 367px;
+        left: 58px;
+        top: 3400px;
+    }
+    
+    .esi2 {
+        position: absolute;
+        width: 576px;
+        height: 367px;
+        left: 640px;
+        top: 3400px;
+    }
+    
+    .esi3 {
+        position: absolute;
+        width: 576px;
+        height: 316px;
+        left: 58px;
+        top: 3770px;
+    }
+    
+    .esi4 {
+        position: absolute;
+        width: 576px;
+        height: 316px;
+        left: 640px;
+        top: 3770px;
+    }
+    /* STEP 3: IDEATE WIREFRAMING*/
+    
+    .wireframeesi {
+        position: absolute;
+        width: 576px;
+        height: 348px;
+        top: 3450px;
+        left: 640px;
+    }
+    
+    .wireframewords {
+        position: absolute;
+        width: 534px;
+        height: 900px;
+        left: 42px;
+        top: 3470px;
+    }
+    
+    .wireframewords1 {
+        position: absolute;
+        width: 534px;
+        height: 900px;
+        left: 65px;
+        top: 3600px;
+    }
+    
+    .morewireframe {
+        position: absolute;
+        width: 1118px;
+        height: 433px;
+        top: 3900px;
+        left: 65px;
+    }
+    /* STEP 4: final design*/
+    
+    .homerealesi {
+        position: absolute;
+        width: 512px;
+        height: 311px;
+        left: 80px;
+        top: 4600px;
+    }
+    
+    .homeesi {
+        position: absolute;
+        width: 512px;
+        height: 311px;
+        left: 700px;
+        top: 4600px;
+    }
+    
+    .finalwords {
+        text-align: center;
+        top: 5000px;
+    }
+    
+    .finalwords1 {
+        text-align: left;
+        left: 400px;
+        top: 5000px;
+    }
+    /* final desig images*/
+    
+    .final1 {
+        position: absolute;
+        width: 630px;
+        height: 422px;
+    }
+    
+    .final2 {
+        position: absolute;
+        width: 630px;
+        height: 422px;
+        left: 657px;
+        top: 5250px;
+    }
+    
+    .final3 {
+        position: absolute;
+        width: 630px;
+        height: 422px;
+        left: 20px;
+        top: 5700px;
+    }
+    
+    .final4 {
+        position: absolute;
+        width: 630px;
+        height: 422px;
+        left: 657px;
+        top: 5700px;
+    }
+    
+    .final5 {
+        position: absolute;
+        width: 735px;
+        height: 483px;
+        left: 300px;
+        top: 6150px;
+    }
+    /* figma embed and key take aways*/
+    
+    .figma {
+        position: absolute;
+        left: 250px;
+        top: 6900px;
+    }
+    /*Footer*/
+    
+    Footer {
+        background-color: #D6CBC1;
+    }
+    
+    .footer {
+        float: right;
+    }
