@@ -1,0 +1,145 @@
+    /*Color Pallete 
+#1C1A1A (Light Black) 
+#BF1363 (Magenta) 
+#CDD6D0 (Light Blue) 
+#D6CBC1 (Light Beige) 
+#D6A99A (Dark Beige)
+*/
+    /* Global Styles*/
+    
+    body {
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    h2,
+    h3 {
+        text-align: center;
+        color: #D6A99A;
+        font-weight: bold;
+    }
+    /* Navigation Bar*/
+    
+    .topnav {
+        background-color: #FFFFFF;
+        overflow: hidden;
+    }
+    
+    .topnav a {
+        float: left;
+        color: #D6A99A;
+        text-align: center;
+        padding: 12px 14px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .topnav a.active {
+        background-color: #BF1363;
+        color: white;
+    }
+    /* HOME PAGE */
+    /* Work Page */
+    
+    .alignRight {
+        position: absolute;
+        width: 346px;
+        height: 89px;
+        left: 550px;
+        top: 301px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    
+    .esireal {
+        position: absolute;
+        width: 400px;
+        height: 354.63px;
+        left: 127px;
+        top: 238px;
+    }
+    
+    .yumyumreal {
+        position: absolute;
+        width: 400px;
+        height: 383.88px;
+        left: 105px;
+        top: 662px;
+    }
+    
+    .yumwords {
+        position: absolute;
+        width: 346px;
+        height: 89px;
+        left: 550px;
+        top: 754px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    
+    .hhsreal {
+        position: absolute;
+        width: 400px;
+        height: 402.6px;
+        left: 127px;
+        top: 1148px;
+    }
+    
+    .hhswords {
+        position: absolute;
+        width: 346px;
+        height: 89px;
+        left: 550px;
+        top: 1239px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    
+    .button {
+        background: #CDD6D0;
+        border-radius: 20px;
+    }
+    /* ABOUT ME PAGE */
+    
+    .saniya {
+        position: absolute;
+        width: 328px;
+        height: 514px;
+        left: 117px;
+        top: 1820px;
+    }
+    
+    .saniyawords {
+        position: absolute;
+        width: 563px;
+        height: 244px;
+        left: 438px;
+        top: 2000px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    /*Footer*/
+    
+    Footer {
+        background-color: #D6CBC1;
+    }
+    
+    .footer {
+        float: right;
+    }
